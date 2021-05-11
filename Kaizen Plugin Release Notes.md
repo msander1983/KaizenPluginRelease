@@ -1,5 +1,10 @@
 ﻿# Release notes - Kaizen Plugin
 
+<!--<div MadCap:conditions="Release.Don't Publish Yet">-->
+## 2021-05-11 (2.1.0)
+- The release flow was optimized. 
+<!--</div>-->
+
 ## 2021-05-11 (2.0.7800.28098)
 - The installer now has silent mode enabled (/S)
 
