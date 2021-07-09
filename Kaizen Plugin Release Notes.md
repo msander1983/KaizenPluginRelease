@@ -1,5 +1,8 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2021-07-09 (2.1.0)
+- Fixed a bug where replacing empty tags would result in a remaining `<REMOVEABC />` tag.
+
 ## 2021-05-11 (2.1.0)
 - The release flow was optimized. 
 
