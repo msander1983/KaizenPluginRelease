@@ -1,5 +1,8 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2021-07-23 (2.1.2)
+- Bug fixes. 
+
 ## 2021-07-09 (2.1.1)
 - Fixed a bug where replacing empty tags would result in a remaining `<REMOVEABC />` tag.
 - Fixed a bug where target condition use export would not include the condition file name if it had a hyphen.
