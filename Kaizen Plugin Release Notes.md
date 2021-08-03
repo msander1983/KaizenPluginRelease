@@ -1,5 +1,8 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2021-08-03 (2.1.3)
+- The fast file search normal search is now case insensitive. 
+
 ## 2021-07-23 (2.1.2)
 - Bug fixes. 
 
