@@ -1,5 +1,13 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2021-10-20 (2.1.4)
+- When opening a file from the TO DO notes function - the Link Viewer would not work. That has been corrected now.
+- Removed the old Kaizen Script functionality.
+- When importing Micro content from Excel, you can now include alternative terms by separating the entries with ";", e.g. Lorem;Ipsum.
+- PDFs created by the Quick PDF feature now get a unique name with a time stamp to avoid conflicts in Adobe Acrobat. 
+- Quick PDF is now more robust. 
+- The condition tag export for files and targets now support condition tags with certain special characters, and includes conditions for targets with the default TOC set.
+
 ## 2021-08-03 (2.1.3)
 - The fast file search normal search is now case insensitive. 
 
