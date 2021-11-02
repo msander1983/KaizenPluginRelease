@@ -1,5 +1,10 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2021-11-02 (2.2.0)
+- The KaizenScript functionality was redesigned to allow for faster and easier deployment of custom add-ons to the Kaizen Plugin. 
+	- **NOTE:** This means that existing Kaizen Scripts will no longer work. Please e-mail me at mattias@improvementsoft.com for a free conversion. 
+- Bug fix: If you manually put in the MadCap prefix in the tag replacer destination field you would get an error message. No more! :) 
+
 ## 2021-10-20 (2.1.4)
 - When opening a file from the TO DO notes function - the Link Viewer would not work. That has been corrected now.
 - Removed the old Kaizen Script functionality.
