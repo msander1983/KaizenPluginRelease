@@ -1,5 +1,10 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2022-02-26 (2.2.2)
+- BUGFIX: A fix to the problem that caused the Quick PDF/Quick Word to sometimes fail in Flare 2021r3
+- BUGFIX: A fix to the problem where condition export would not work in Flare 2021r3
+- FEATURE: You can now build a "Quick HTML" target that'll build a CleanXHTML version of the topic you have open. 
+
 ## 2021-12-13 (2.2.1)
 - Updated the Kaizenscript functionality so that you can re-install a script without deleting the existing DLL file first. 
 
