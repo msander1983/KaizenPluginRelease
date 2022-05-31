@@ -1,5 +1,8 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2022-05-31 (2.2.3)
+- The QuickWord/PDF/HTML doesn't support non-default output files or folders: added error message to tell you about it.
+
 ## 2022-02-26 (2.2.2)
 - BUGFIX: A fix to the problem that caused the Quick PDF/Quick Word to sometimes fail in Flare 2021r3
 - BUGFIX: A fix to the problem where condition export would not work in Flare 2021r3
