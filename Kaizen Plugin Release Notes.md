@@ -1,5 +1,8 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2022-08-18 (2.2.4)
+- BUG FIX: The "bookmark topic and create TOC" functions ignored sup/sub tags, but not anymore :)
+
 ## 2022-05-31 (2.2.3)
 - The QuickWord/PDF/HTML doesn't support non-default output files or folders: added error message to tell you about it.
 
