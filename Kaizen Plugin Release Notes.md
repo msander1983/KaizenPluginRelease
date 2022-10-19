@@ -1,5 +1,8 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2022-10-19 (2.2.5)
+- BUG FIX: Leading and trailing spaces where not properly handled when accepting/rejecting all changes in a project, but now they are :)
+
 ## 2022-08-18 (2.2.4)
 - BUG FIX: The "bookmark topic and create TOC" functions ignored sup/sub tags, but not anymore :)
 
