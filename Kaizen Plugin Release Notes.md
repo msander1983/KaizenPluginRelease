@@ -1,5 +1,9 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2022-11-11 (2.2.6)
+- BUG FIX: If the tag replacer comes across a topic without a body tag it will now provide a better error message than "object reference not set...".
+- BUG FIX: Another correction related to spaces in the accept/reject all changes. 
+
 ## 2022-10-19 (2.2.5)
 - BUG FIX: Leading and trailing spaces where not properly handled when accepting/rejecting all changes in a project, but now they are :)
 
