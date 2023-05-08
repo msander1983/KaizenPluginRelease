@@ -1,5 +1,11 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2023-05-08 (2.2.8)
+- Installer updated for Flare 2023
+
+## 2023-02-15 (2.2.7)
+- The Quick Word feature now uses .docx instead of .doc. 
+
 ## 2022-11-11 (2.2.6)
 - BUG FIX: If the tag replacer comes across a topic without a body tag it will now provide a better error message than "object reference not set...".
 - BUG FIX: Another correction related to spaces in the accept/reject all changes. 
