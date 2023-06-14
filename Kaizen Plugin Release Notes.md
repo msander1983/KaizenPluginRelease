@@ -1,5 +1,13 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2023-06-14 (2.2.12)
+- When accepting all changes in a project, non-significant line breaks would be removed. Now they are not. 
+
+## 2023-05-30 (2.2.11)
+- Fixed a bug where the tabs would duplicate in Flare. 
+- The Markdown Plugin I is no longer supported. Please use a previous version of the Kaizen Plugin, or consider upgrading to Markdown Plugin II at www.improvementsoft.com
+- The Kaizen Script functions are no longer supported. 
+
 ## 2023-05-08 (2.2.8)
 - Installer updated for Flare 2023
 
