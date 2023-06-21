@@ -1,5 +1,9 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2023-06-21 (2.2.13)
+- Support for multiple file extensions in the Fast File Search.
+- New button to close all topics and snippets. 
+
 ## 2023-06-14 (2.2.12)
 - When accepting all changes in a project, non-significant line breaks would be removed. Now they are not. 
 
