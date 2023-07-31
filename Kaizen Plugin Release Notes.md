@@ -1,5 +1,8 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2023-07-31 (2.2.14)
+- Fixed bug in Tag Replacer. 
+
 ## 2023-06-21 (2.2.13)
 - Support for multiple file extensions in the Fast File Search.
 - New button to close all topics and snippets. 
