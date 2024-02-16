@@ -1,7 +1,15 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2023-12-11 (2.2.19)
+- Fixed a bug related to Micro Content Import
+
+## 2023-09-26 (2.2.15)
+- Improved memory management in the ALT texts feature.
+
 ## 2023-07-31 (2.2.14)
 - Fixed bug in Tag Replacer. 
+- You can now validate XML in specific folders. 
+- Various bug fixes.
 
 ## 2023-06-21 (2.2.13)
 - Support for multiple file extensions in the Fast File Search.
