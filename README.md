@@ -1,5 +1,27 @@
 # Release Notes
 
+- **Version 2.2.49** (2026-07-22)
+  - Added **Flare Diagnosis** (Cleanup ⚡ tab → Project Analysis): one-click health check of your Flare project — runs 40+ deterministic rules across project integrity, links & references, reuse hygiene, style & markup, content hygiene, assets, and build configuration
+  - The diagnosis report opens with a plain-language verdict, a "what this is costing you" summary, and a prioritized checklist where each finding expands to the list of affected files. Everything runs locally — no data leaves your machine
+  - Flare Diagnosis reports can be saved as a standalone HTML file to share with your team
+  - Quick Word/PDF/HTML now shows a friendly "close the document and try again" message when the generated output file is open in another program, instead of raising an error report
+  - Kanban Board: the *Attach files* dialog now keeps your selection in a visible basket that survives searching and filtering, so you can collect files across multiple searches before attaching them all at once
+  - Kanban Board: card faces now show the names of attached files, with full paths in the tooltip
+  - Remove Local Styling now also removes a style attribute on the topic's root element
+
+- **Version 2.2.48** (2026-05-26)
+  - Added new dedicated **Kanban ⚡** ribbon tab for in-project work management
+  - Added **Kanban Board** button: plan and track Flare work as cards stored under `.kanban/` in the project root, with columns, types, checklists, file attachments, and a second tab that surfaces `madcap:annotation` notes grouped by their UPPERCASE prefix
+  - Added **Add Topic to Card** button: package the currently open topic onto a Kanban card in one click — attach to an existing card or create a new one pre-loaded with the topic. Useful when collecting the set of topics that need to be touched for a particular job
+  - Plugin Settings now includes a *Kanban Tab:* section for hiding the Kanban group
+
+- **Version 2.2.47** (2026-05-06)
+  - Fixed ObjectDisposedException ('CatapultContentExplorer') reported on shutdown by no longer disposing Flare's IHost (the plugin does not own it)
+  - Extended Flare-internal exception filter to also swallow ObjectDisposedExceptions raised by Catapult* / ContentExplorer / ProjectExplorer types, so Flare's own teardown bugs no longer surface as plugin error dialogs
+
+- **Version 2.2.46** (2026-04-22)
+  - TODO Notes now also scans .html files for annotations
+
 - **Version 2.2.45** (2026-04-15)
   - Added Snippet Picker: search and insert snippets by name or content with live preview, Launchy-style keyboard navigation (type to search, arrow keys to browse, Enter to insert)
   - Added Variable Picker: separate ribbon button to search and insert variables by name or value
