@@ -1,5 +1,9 @@
 # Release Notes
 
+- **Version 2.2.50** (2026-07-27)
+  - **Bookmark & Create TOC** now transfers each heading's condition tags onto the matching generated TOC entry, so entries are included or excluded by the same target rules as the heading itself — no more TOC links pointing at headings that are conditioned out of a build (works for both the single-topic and multi-topic versions)
+  - **Flare Diagnosis:** links whose target is a Flare variable/expression (e.g. `[%=Variables.PDF_Link%]`) are no longer reported as broken cross-references or broken image/snippet references — those resolve at build time and can't be checked against files on disk
+
 - **Version 2.2.49** (2026-07-22)
   - Added **Flare Diagnosis** (Cleanup ⚡ tab → Project Analysis): one-click health check of your Flare project — runs 40+ deterministic rules across project integrity, links & references, reuse hygiene, style & markup, content hygiene, assets, and build configuration
   - The diagnosis report opens with a plain-language verdict, a "what this is costing you" summary, and a prioritized checklist where each finding expands to the list of affected files. Everything runs locally — no data leaves your machine
