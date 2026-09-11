@@ -1,5 +1,10 @@
 # Release Notes
 
+- **Version 2.2.51** (2026-09-11)
+  - **Plugin Settings:** new *Tabs* section lets you hide whole ribbon tabs (Cleanup, Import, Productivity, Kanban). Previously, unchecking every group in a tab still left the empty tab visible. The Kaizen Plugin tab always stays so *Settings* remains reachable
+  - **Plugin Settings:** the *Project Analysis* group checkbox (Cleanup tab) now actually hides the group, and the *Snippets* group (Productivity tab) can now be toggled
+  - **Plugin Settings:** *Reset to Defaults* now really restores the defaults instead of reloading the previously saved settings, and a reset that is cancelled no longer sticks until Flare restarts
+
 - **Version 2.2.50** (2026-07-27)
   - **Bookmark & Create TOC** now transfers each heading's condition tags onto the matching generated TOC entry, so entries are included or excluded by the same target rules as the heading itself — no more TOC links pointing at headings that are conditioned out of a build (works for both the single-topic and multi-topic versions)
   - **Flare Diagnosis:** links whose target is a Flare variable/expression (e.g. `[%=Variables.PDF_Link%]`) are no longer reported as broken cross-references or broken image/snippet references — those resolve at build time and can't be checked against files on disk
