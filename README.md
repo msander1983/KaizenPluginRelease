@@ -1,5 +1,8 @@
 # Release Notes
 
+- **Version 2.2.53** (2026-09-11)
+  - **Plugin Settings:** fixed a crash on Flare startup when the *Project Analysis* group (Cleanup tab) was hidden. The plugin failed to load and the *Help* and *Settings* buttons disappeared from the Kaizen Plugin tab, so the setting could not be undone. *Stats, stat!* and *Flare Diagnosis* are now only added when their group is visible
+
 - **Version 2.2.52** (2026-09-11)
   - **Import Excel to <table>:** no longer raises Flare's error dialog when another application (e.g. a clipboard manager) is holding the clipboard. The plugin now retries the copy for about a second and, if the clipboard is still busy, shows a "Clipboard unavailable" message asking you to try again
 
