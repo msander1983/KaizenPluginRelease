@@ -1,5 +1,9 @@
 # Release Notes
 
+- **Version 2.2.54** (2026-10-30)
+  - **Session logs:** moved from *Documents\KaizenPlugin\Logs* to *%LOCALAPPDATA%\KaizenPlugin\Logs*, so they are no longer synced by OneDrive. Old logs in Documents are deleted automatically, and only the 20 newest logs (up to 14 days old) are kept
+  - **Plugin Settings:** new *Logging* section. Clear *Write session log files* to stop the plugin from writing log files, or click *Open logs folder* to view them
+
 - **Version 2.2.53** (2026-09-11)
   - **Plugin Settings:** fixed a crash on Flare startup when the *Project Analysis* group (Cleanup tab) was hidden. The plugin failed to load and the *Help* and *Settings* buttons disappeared from the Kaizen Plugin tab, so the setting could not be undone. *Stats, stat!* and *Flare Diagnosis* are now only added when their group is visible
 
