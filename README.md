@@ -1,5 +1,9 @@
 # Release Notes
 
+- **Version 2.2.55** (2026-11-18)
+  - **Kaizen Plugin tab:** fixed an *Error building main GUI* message when Flare stopped and then re-activated the plugin in the same session. The plugin now rebuilds its ribbon and resumes logging normally
+  - **Error reports:** now include the Flare version, and reports created after the plugin is re-activated show the current log entries instead of entries from an ended session
+
 - **Version 2.2.54** (2026-10-30)
   - **Session logs:** moved from *Documents\KaizenPlugin\Logs* to *%LOCALAPPDATA%\KaizenPlugin\Logs*, so they are no longer synced by OneDrive. Old logs in Documents are deleted automatically, and only the 20 newest logs (up to 14 days old) are kept
   - **Plugin Settings:** new *Logging* section. Clear *Write session log files* to stop the plugin from writing log files, or click *Open logs folder* to view them
